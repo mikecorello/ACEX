@@ -10,12 +10,47 @@
         <Key ID="STR_ACEX_Disguise_ModuleDescription">
             <English>This module allows you to disguise yourself as a civilian, dependant on your equipment.</English>
         </Key>
-
-        <Key ID="STR_ACEX_Disguise_Param_Uniforms">
+        <Key ID="STR_ACEX_Disguise_IgnoreNVG">
+            <English>Ignore NVG's</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_IgnoreNVG_Description">
+            <English>Whether or not disguise should be affected by wearing NVG's.</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Headgear">
+            <English>Civilian Headgear</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Headgear_Description">
+            <English>Which headgear will be able to pass as civilian.</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Goggles">
+            <English>Civilian Goggles</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Goggles_Description">
+            <English>Which goggles will be able to pass as civilian.</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Uniforms">
             <English>Civilian Uniforms</English>
         </Key>
-        <Key ID="STR_ACEX_Disguise_Param_Uniforms_Description">
+        <Key ID="STR_ACEX_Disguise_Uniforms_Description">
             <English>Which uniforms will be able to pass as civilian.</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Vests">
+            <English>Civilian Vests</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Vests_Description">
+            <English>Which vests will be able to pass as civilian.</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Backpacks">
+            <English>Civilian Backpacks</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Backpacks_Description">
+            <English>Which backpacks will be able to pass as civilian.</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Vehicles">
+            <English>Civilian Vehicles</English>
+        </Key>
+        <Key ID="STR_ACEX_Disguise_Backpacks_Description">
+            <English>Which vehicles will be able to pass as civilian.</English>
         </Key>
     </Package>
 </Project>
