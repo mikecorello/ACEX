@@ -7,12 +7,12 @@
 // #define CBA_DEBUG_SYNCHRONOUS
 // #define ENABLE_PERFORMANCE_COUNTERS
 
-#ifdef DEBUG_ENABLED_BLANK
+#ifdef DEBUG_ENABLED_DISGUISE
     #define DEBUG_MODE_FULL
 #endif
 
-#ifdef DEBUG_SETTINGS_BLANK
-    #define DEBUG_SETTINGS DEBUG_SETTINGS_BLANK
+#ifdef DEBUG_SETTINGS_DISGUISE
+    #define DEBUG_SETTINGS DEBUG_SETTINGS_DISGUISE
 #endif
 
 #include "\z\acex\addons\main\script_macros.hpp"
