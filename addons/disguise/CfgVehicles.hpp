@@ -14,12 +14,54 @@ class CfgVehicles {
                 displayName = CSTRING(Enable);
                 description = CSTRING(Enable);
                 typeName = "BOOL";
+                defaultValue = 1;
+            };
+
+            class ignoreNVG {
+                displayName = CSTRING(IgnoreNVG);
+                description = CSTRING(IgnoreNVG_Description);
+                typeName = "BOOL";
                 defaultValue = 0;
             };
 
+            class headgear {
+                displayName = CSTRING(Headgear);
+                description = CSTRING(Headgear_Description);
+                typeName = "STRING";
+                defaultValue = "";
+            };
+
+            class goggles {
+                displayName = CSTRING(Goggles);
+                description = CSTRING(Goggles_Description);
+                typeName = "STRING";
+                defaultValue = "";
+            };
+
             class uniforms {
-                displayName = CSTRING(Param_Uniforms);
-                description = CSTRING(Param_Uniforms_Description);
+                displayName = CSTRING(Uniforms);
+                description = CSTRING(Uniforms_Description);
+                typeName = "STRING";
+                defaultValue = "";
+            };
+
+            class vests {
+                displayName = CSTRING(Vests);
+                description = CSTRING(Vests_Description);
+                typeName = "STRING";
+                defaultValue = "";
+            };
+
+            class backpacks {
+                displayName = CSTRING(Backpacks);
+                description = CSTRING(Backpacks_Description);
+                typeName = "STRING";
+                defaultValue = "";
+            };
+
+            class vehicles {
+                displayName = CSTRING(Vehicles);
+                description = CSTRING(Vehicles_Description);
                 typeName = "STRING";
                 defaultValue = "";
             };
