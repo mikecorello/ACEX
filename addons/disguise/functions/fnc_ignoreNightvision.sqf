@@ -21,5 +21,5 @@ private _playerNVGs = hmd _player;
 
 GVAR(enable) &&
 {GVAR(ignoreNVG) &&
-{_playerNVGs != ""}} ||
-{_playerNVGs == ""}
+{_playerNVGs != ""} ||
+{_playerNVGS == ""}}
