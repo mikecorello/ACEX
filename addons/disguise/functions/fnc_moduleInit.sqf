@@ -29,7 +29,7 @@ GVAR(civ_vests) = [_logic getVariable ["vests", ""], false, false] call ACEFUNC(
 GVAR(civ_backpacks) = [_logic getVariable ["backpacks", ""], false, false] call ACEFUNC(common,parseList);
 GVAR(civ_vehicles) = [_logic getVariable ["vehicles", ""], false, false] call ACEFUNC(common,parseList);
 
-INFO_1("Disguise Module Initialized. Enabled: %1",GVAR(enabled));
+INFO_1("Disguise Module Initialized. Enabled: %1", GVAR(enable));
 INFO_1("Disguise Headgear: %1", GVAR(civ_headgear));
 INFO_1("Disguise Goggles: %1", GVAR(civ_goggles));
 INFO_1("Disguise Uniforms: %1", GVAR(civ_uniforms));
