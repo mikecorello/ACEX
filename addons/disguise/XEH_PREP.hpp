@@ -1,2 +1,9 @@
 PREP(moduleInit);
-PREP(logParams);
+PREP(hasCivilianHeadgear);
+PREP(hasCivilianGoggles);
+PREP(hasCivilianUniform);
+PREP(hasCivilianVest);
+PREP(isCivilianVehicle);
+PREP(isInsideCivilianVehicle);
+PREP(ignoreNightVision);
+PREP(checkDisguise);
