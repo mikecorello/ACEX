@@ -22,4 +22,17 @@ if (!_activated) exitWith {};
 
 [_logic, QGVAR(enable), "enable"] call ACEFUNC(common,readSettingFromModule);
 
-INFO("Disguise Module Initialized.");
+GVAR(civ_headgear) = [_logic getVariable ["headgear", ""], false, false] call ACEFUNC(common,parseList);
+GVAR(civ_goggles) = [_logic getVariable ["goggles", ""], false, false] call ACEFUNC(common,parseList);
+GVAR(civ_uniforms) = [_logic getVariable ["uniforms", ""], false, false] call ACEFUNC(common,parseList);
+GVAR(civ_vests) = [_logic getVariable ["vests", ""], false, false] call ACEFUNC(common,parseList);
+GVAR(civ_backpacks) = [_logic getVariable ["backpacks", ""], false, false] call ACEFUNC(common,parseList);
+GVAR(civ_vehicles) = [_logic getVariable ["vehicles", ""], false, false] call ACEFUNC(common,parseList);
+
+INFO_1("Disguise Module Initialized. Enabled: %1",GVAR(enabled));
+INFO_1("Disguise Headgear: %1", GVAR(civ_headgear));
+INFO_1("Disguise Goggles: %1", GVAR(civ_goggles));
+INFO_1("Disguise Uniforms: %1", GVAR(civ_uniforms));
+INFO_1("Disguise Vests: %1", GVAR(civ_vests));
+INFO_1("Disguise Backpacks: %1", GVAR(civ_backpacks));
+INFO_1("Disguise Vehicles: %1", GVAR(civ_vehicles));
