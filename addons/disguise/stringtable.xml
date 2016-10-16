@@ -49,7 +49,7 @@
         <Key ID="STR_ACEX_Disguise_Vehicles">
             <English>Civilian Vehicles</English>
         </Key>
-        <Key ID="STR_ACEX_Disguise_Backpacks_Description">
+        <Key ID="STR_ACEX_Disguise_Vehicles_Description">
             <English>Which vehicles will be able to pass as civilian.</English>
         </Key>
     </Package>
